@@ -23,7 +23,7 @@ let berry = {
 } 
 
 
-let canvas = document.querySelector("#game-canvas");
+let canvas = document.querySelector(".canvas-wrapper");
 let context = canvas.getContext("2d");
 scoreBlock = document.querySelector(".game-score .score-count");
 drawScore();

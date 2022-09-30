@@ -6,7 +6,6 @@ export default class GameLoop {
 
         this.update = update;
         this.draw = draw;
-
         this.config = new Config();
 
         this.animate = this.animate.bind(this);
